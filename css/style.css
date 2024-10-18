@@ -1,0 +1,81 @@
+h1 {
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* 
+  ##Device = Desktops
+*/
+
+@media (min-width: 1281px) {
+  
+    body {
+        font-size: 50px;
+    }
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+    body {
+        font-size: 50px;
+    }
+  
+}
+
+/* 
+  ##Device = Tablets (Portrait)
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+    body {
+        font-size: 50px;
+    }
+  
+}
+
+/* 
+  ##Device = Tablets (Landscape)
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+    body {
+        font-size: 50px;
+    }
+  
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+    body {
+        font-size: 40px;
+    }
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+    body {
+        font-size: 40px;
+    }
+  
+}
