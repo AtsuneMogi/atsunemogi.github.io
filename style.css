@@ -18,16 +18,44 @@ body {
 }
 
 header {
+  position: sticky;
+  top: 0;
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 1rem 2rem;
+  z-index: 100;
 }
 
 .header-container {
   display: flex;
   align-items: center;
-  justify-content: flex-start;
+  justify-content: space-between;
   gap: 1.5rem;
+}
+
+.header-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+}
+
+.header-nav a {
+  text-decoration: none;
+  color: #333;
+  font-weight: 600;
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+  transition:
+    background-color 0.15s ease,
+    color 0.15s ease;
+}
+
+.header-nav a:hover {
+  background-color: rgba(0, 122, 255, 0.08);
+  color: #007aff;
 }
 
 .header-image {
@@ -53,9 +81,10 @@ main {
 }
 
 .about,
-.links {
+.links,
+.research {
   width: 100%;
-  max-width: 600px;
+  max-width: 800px;
   text-align: left;
 }
 
@@ -96,12 +125,68 @@ main {
     brightness(98%) contrast(102%);
 }
 
+.doi-link {
+  text-decoration: none;
+  color: #007aff;
+  font-weight: 500;
+  transition: color 0.3s ease;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+}
+
+.doi-link:hover {
+  color: #0056b3;
+}
+
+.doi-icon {
+  height: 1.1em;
+  width: 1.1em;
+  display: inline-block;
+  filter: invert(14%) sepia(75%) saturate(1294%) hue-rotate(199deg)
+    brightness(99%) contrast(104%);
+}
+
+.doi-link:hover .doi-icon {
+  filter: invert(31%) sepia(94%) saturate(2140%) hue-rotate(198deg)
+    brightness(98%) contrast(102%);
+}
+
 .about h2,
-.links h3 {
+.links h3,
+.research h2 {
   font-size: 1.8rem;
   margin-top: 0;
   margin-bottom: 1rem;
   color: #333;
+}
+
+.research ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.research ul > li {
+  margin-bottom: 1.5rem;
+}
+
+.research ul li h3 {
+  font-size: 1.3rem;
+  margin: 0 0 0.5rem 0;
+  color: #333;
+}
+
+.research ol {
+  margin: 0.5rem 0 0 1.25rem;
+  padding: 0;
+}
+
+.research ol li {
+  margin-bottom: 0.8rem;
+  color: #444;
+  font-size: 1.05em;
+  line-height: 1.5;
 }
 
 dl {
@@ -124,6 +209,8 @@ dd {
 }
 
 footer {
+  position: sticky;
+  bottom: 0;
   margin-top: auto;
   width: 100%;
   text-align: center;
@@ -132,6 +219,7 @@ footer {
   font-size: 1rem;
   color: #888;
   box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.05);
+  z-index: 100;
 }
 
 .footer-icons {

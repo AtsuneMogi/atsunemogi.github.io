@@ -3,20 +3,27 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="ats.svg" type="image/svg+xml" />
     <title>Atsune Mogi</title>
   </head>
 
   <body>
     <header>
       <div class="header-container">
-        <img src="images/ats.svg" alt="Atsune Mogi" class="header-image" />
         <span class="site-title">Atsune Mogi</span>
+        <nav class="header-nav" aria-label="Primary">
+          <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#research">Research</a></li>
+            <li><a href="#links">Links</a></li>
+          </ul>
+        </nav>
       </div>
     </header>
 
     <main>
-      <section class="about">
+      <section id="about" class="about">
         <h2>About</h2>
         <dl>
           <dt>Name</dt>
@@ -36,8 +43,58 @@
         </dl>
       </section>
 
-      <section class="links">
-        <h3>Links</h3>
+      <section id="research" class="research">
+        <h2>Research</h2>
+        <ul>
+          <li>
+            <h3>Journal Papers</h3>
+            <ol>
+              <li>
+                In progress
+              </li>
+            </ol>
+          </li>
+
+          <li>
+            <h3>International Conferences</h3>
+            <ol>
+              <li>
+                Atsune Mogi, Yumi Matsuda, Mitsuru Futakuchi,
+                Tomochika Harada, and Michio Yokoyama,
+                Correlation Analysis Between Vital Data and
+                Quality of Life Score with the Home Nursing Support System,
+                The 2025 International Symposium on Nonlinear Theory
+                and Its Applications (NOLTA2025),
+                Oral, pp. (in press),
+                Okinawa, Japan, Oct. 31, 2025.
+              </li>
+              <li>
+                Atsune Mogi, Mitsunori Suzuki, Yumi Matsuda, Mitsuru Futakuchi,
+                Tomochika Harada, and Michio Yokoyama,
+                A Study on Home Nursing Support System
+                for Elderly People Living Alone,
+                The 2024 International Symposium on Nonlinear Theory
+                and Its Applications (NOLTA2024),
+                Oral, pp. 306-309,
+                Ha Long Bay, Vietnam, Dec. 4, 2024.
+                <a
+                  href="https://doi.org/10.34385/proc.92.B3L-C4"
+                  target="_blank"
+                  class="doi-link"
+                >
+                  <img
+                    src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/doi.svg"
+                    alt="DOI"
+                    class="doi-icon"
+                  />
+                </a>
+              </li>
+            </ol>
+          </li>
+        </ul>
+
+      <section id="links" class="links">
+        <h2>Links</h2>
 
         <ul>
           <li>
