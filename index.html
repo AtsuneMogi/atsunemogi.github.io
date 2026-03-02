@@ -1,43 +1,115 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="css/style.css">
-        <title>Atsune Mogi</title>
-    </head>
-    
-    <body>
-        <header>
-            <div class="header-container">
-                <span class="site-title">Atsune Mogi</span>
-                <nav>
-                    <ul class="nav-list">
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">About</a></li>
-                        <li><a href="#">Contact</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Atsune Mogi</title>
+  </head>
 
-        <div class="column">
-            <img src="images/ats.svg" align="left">
-        </div>
+  <body>
+    <header>
+      <div class="header-container">
+        <img src="images/ats.svg" alt="Atsune Mogi" class="header-image" />
+        <span class="site-title">Atsune Mogi</span>
+      </div>
+    </header>
 
-        <div class="column">
-            <h3>Links</h3>
+    <main>
+      <section class="about">
+        <h2>About</h2>
+        <dl>
+          <dt>Name</dt>
+          <dd>Atsune Mogi</dd>
 
-            <ul>
-                <li><a href="https://github.com/AtsuneMogi" target="_blank">GitHub</a></li>
-                <li><a href="https://www.youtube.com/channel/UCaJ2ks0K5uqwsdN6YZV27kg" target="_blank">YouTube</a></li>
-            </ul>
-        </div>
-        <footer>
-            <!--
-            <p>&copy; 2025 Sample Homepage. All rights reserved.</p>
-            -->
-        </footer>
-        <script type="text/javascript" src="js/main.js"></script>
-    </body>
+          <dt>Affiliation</dt>
+          <dd>
+            Graduate Student, Graduate School of Science and Engineering,
+            Yamagata University
+          </dd>
+
+          <dt>Address</dt>
+          <dd>4-3-16 Jonan, Yonezawa, Yamagata 992-8510, Japan</dd>
+
+          <dt>Email</dt>
+          <dd>maomudunyin[at]gmail.com</dd>
+        </dl>
+      </section>
+
+      <section class="links">
+        <h3>Links</h3>
+
+        <ul>
+          <li>
+            <a href="https://orcid.org/0009-0004-4901-4822" target="_blank">
+              <img
+                src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/orcid.svg"
+                alt="ORCID"
+                class="link-icon"
+              />
+              ORCID
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/AtsuneMogi" target="_blank">
+              <img
+                src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/github.svg"
+                alt="GitHub"
+                class="link-icon"
+              />
+              GitHub
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.youtube.com/channel/UCaJ2ks0K5uqwsdN6YZV27kg"
+              target="_blank"
+            >
+              <img
+                src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/youtube.svg"
+                alt="YouTube"
+                class="link-icon"
+              />
+              YouTube
+            </a>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-icons">
+        <a
+          href="https://orcid.org/0009-0004-4901-4822"
+          target="_blank"
+          title="ORCID"
+        >
+          <img
+            src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/orcid.svg"
+            alt="ORCID"
+            class="footer-icon-img"
+          />
+        </a>
+        <a href="https://github.com/AtsuneMogi" target="_blank" title="GitHub">
+          <img
+            src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/github.svg"
+            alt="GitHub"
+            class="footer-icon-img"
+          />
+        </a>
+        <a
+          href="https://www.youtube.com/channel/UCaJ2ks0K5uqwsdN6YZV27kg"
+          target="_blank"
+          title="YouTube"
+        >
+          <img
+            src="https://cdn.jsdelivr.net/npm/simple-icons@v10/icons/youtube.svg"
+            alt="YouTube"
+            class="footer-icon-img"
+          />
+        </a>
+      </div>
+      <p>&copy; 2025 Atsune Mogi</p>
+    </footer>
+  </body>
 </html>
