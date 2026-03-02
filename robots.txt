@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://atsunemogi.github.io/sitemap.xml
