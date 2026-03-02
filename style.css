@@ -286,3 +286,8 @@ footer p {
     transform: translateY(0);
   }
 }
+@media (max-width: 600px) {
+  dl {
+    grid-template-columns: 1fr;
+  }
+}
