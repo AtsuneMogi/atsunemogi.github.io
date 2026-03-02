@@ -1,4 +1,4 @@
-# Atsune Mogi's Homepage
+# Atsune Mogi's Website
 
 https://atsunemogi.github.io
 

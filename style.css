@@ -88,6 +88,16 @@ main {
   text-align: left;
 }
 
+.about ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.about ul li {
+  margin-bottom: 0.8rem;
+}
+
 .links ul {
   list-style: none;
   padding: 0;
@@ -189,25 +199,6 @@ main {
   line-height: 1.5;
 }
 
-dl {
-  margin: 0;
-  display: grid;
-  grid-template-columns: 150px 1fr;
-  gap: 0.5rem 1rem;
-}
-
-dt {
-  font-weight: 600;
-  color: #555;
-  font-size: 1.1em;
-}
-
-dd {
-  margin: 0;
-  color: #666;
-  font-size: 1.1em;
-}
-
 footer {
   position: relative;
   margin-top: auto;
@@ -284,10 +275,5 @@ footer p {
   to {
     opacity: 1;
     transform: translateY(0);
-  }
-}
-@media (max-width: 600px) {
-  dl {
-    grid-template-columns: 1fr;
   }
 }
