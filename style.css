@@ -28,9 +28,6 @@ header {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   padding: 1rem 2rem;
   z-index: 100;
-}
-
-.header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -79,35 +76,35 @@ main {
   gap: 2rem;
 }
 
-.about,
-.links,
-.research {
+#about,
+#links,
+#research {
   width: 100%;
   max-width: 800px;
   text-align: left;
 }
 
-.about ul {
+#about ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.about ul li {
+#about ul li {
   margin-bottom: 0.8rem;
 }
 
-.links ul {
+#links ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.links ul li {
+#links ul li {
   margin-bottom: 0.8rem;
 }
 
-.links ul a {
+#links ul a {
   text-decoration: none;
   color: #007aff;
   font-weight: 500;
@@ -117,7 +114,7 @@ main {
   gap: 0.5em;
 }
 
-.links ul a:hover {
+#links ul a:hover {
   color: #0056b3;
 }
 
@@ -129,7 +126,7 @@ main {
     brightness(99%) contrast(104%);
 }
 
-.links ul a:hover .link-icon {
+#links ul a:hover .link-icon {
   filter: invert(31%) sepia(94%) saturate(2140%) hue-rotate(198deg)
     brightness(98%) contrast(102%);
 }
@@ -161,37 +158,37 @@ main {
     brightness(98%) contrast(102%);
 }
 
-.about h2,
-.links h2,
-.research h2 {
+#about h2,
+#links h2,
+#research h2 {
   font-size: 1.8rem;
   margin-top: 0;
   margin-bottom: 1rem;
   color: #333;
 }
 
-.research ul {
+#research ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
 
-.research ul > li {
+#research ul > li {
   margin-bottom: 1.5rem;
 }
 
-.research ul li h3 {
+#research ul li h3 {
   font-size: 1.3rem;
   margin: 0 0 0.5rem 0;
   color: #444;
 }
 
-.research ol {
+#research ol {
   margin: 0.5rem 0 0 1.25rem;
   padding: 0;
 }
 
-.research ol li {
+#research ol li {
   margin-bottom: 0.8rem;
   color: #444;
   font-size: 1.05em;
