@@ -92,6 +92,26 @@ main {
   margin: 0;
 }
 
+.about-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.about-table th,
+.about-table td {
+  padding: 0 0 0.8rem;
+  vertical-align: top;
+  border: none;
+}
+
+.about-table th {
+  width: 9rem;
+  padding-right: 1.25rem;
+  text-align: left;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
 #about ul li,
 #others ul li {
   margin-bottom: 0.8rem;
@@ -292,5 +312,10 @@ footer p {
   .links,
   .research {
     max-width: 100%;
+  }
+
+  .about-table th {
+    width: 7rem;
+    padding-right: 0.75rem;
   }
 }
